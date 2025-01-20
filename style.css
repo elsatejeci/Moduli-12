@@ -1,40 +1,56 @@
 @font-face {
     font-family: "Fake Identity";
-    src: url("fonts/Fake\ Identity.ttf");
-}
-
-
-
+    src: url("fonts/FakeIdentity.ttf");
+  }
 
 h1{
-    color: darkviolet;
-    letter-spacing: 20px;
-    font-family: "Fake Identity";
-
+  color: green;
+  letter-spacing: 20px;
+  word-spacing: 20px;
+  font-family: "Fake Identity";
 }
+
+p{
+  text-indent: 50px;
+  text-align: center;
+  
+}
+
+
 h2{
-    color: darkviolet;
-   word-spacing: 40px ;
-    }
-    p{ text-indent: 50px;
-        text-align: center;
-    }
+  text-decoration: overline;
+}
+
+h3{
+  text-decoration: line-through;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+p{
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+#normalText {
+   font-style: normal;
+    font-size: 30px;
+}
+
+#italicText {
+    font-style: italic;
+    font-weight: bold;
    
-    h3{ 
-        text-decoration: overline;
-    }
+     
+ }
 
-    h4{ 
-        text-decoration: line-through;
-    }
-
-    h5{ 
-        text-decoration: underline;
-    }
-
-    .myElement{
-        color: blue;
-        text-decoration: line-through;
-        text-indent: 50px;
-        text-align: center;
-    }
+ a   
+ {
+    
+color: rgb(37, 8, 83);
+ }
+ 
+    
